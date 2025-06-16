@@ -22,7 +22,7 @@ For example: work on GitHub
 ### 2.2 Git flow:
 - **git init**: Start a new Git repository in the current folder.
 - **git status**: Show the current state of files.
-- **git add < filename >**: Move changes from Working Directory to Staging Area. (git add . to move all changed files to the Staging Area).
+- **git add < filename >**: Take a snapshot of a record with the content and status of the files when they were added, without affecting the Working Directory.  (git add . - snapshot for all changed files to the Staging Area).
 - **git commit -m < message >**: Saves the changes and add a message to describe what changes.
 - **git push**: push commits from the local repository to a remote repository.
 - Git convention:
